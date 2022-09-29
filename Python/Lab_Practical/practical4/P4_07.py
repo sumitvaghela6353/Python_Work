@@ -1,0 +1,6 @@
+tuplex = (2, 4, 6, 1, 7)
+print(tuplex)
+listx = list(tuplex)
+listx.remove(6)
+tuplex = tuple(listx)
+print(tuplex)
